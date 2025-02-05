@@ -178,7 +178,27 @@ body {
 
 
   /* Media query para telas menores */
+
 @media (max-width: 320px) {
+
+    .tela-inicial {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .tela-inicial h2 {
+        font-size: 18px;
+    }
+
+    .tela-inicial a {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .tela-inicial img {
+      width: 70%;
+    }
+
   .header-principal {
       padding: 5px;
   }
